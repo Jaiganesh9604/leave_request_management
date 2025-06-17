@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New section 2" section_id="e80f601d83026210216cf7a6feaad309" sys_domain="global" table="x_1777187_leave_0_leave_request_details" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supporting_document</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-09 07:33:22</sys_created_on>
+            <sys_id>fc0f601d83026210216cf7a6feaad3e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1777187_leave_0_leave_request_details" sys_domain="global" view="Default view">e80f601d83026210216cf7a6feaad309</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-09 07:33:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New section 2</caption>
+            <header>false</header>
+            <name>x_1777187_leave_0_leave_request_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-09 07:33:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e80f601d83026210216cf7a6feaad309</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1777187_leave_0_leave_request_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+            <sys_update_name>sys_ui_section_e80f601d83026210216cf7a6feaad309</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-09 07:33:21</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</application>
+        <file_path/>
+        <instance_id>b0f3844eeb702e5056eafddacad0cd6a</instance_id>
+        <instance_name>dev324208</instance_name>
+        <name>sys_ui_section_e80f601d83026210216cf7a6feaad309</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New section 2" section_id="e80f601d83026210216cf7a6feaad309" sys_domain="global" table="x_1777187_leave_0_leave_request_details" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>supporting_document</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-09 07:33:22</sys_created_on><sys_id>fc0f601d83026210216cf7a6feaad3e4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New section 2" display_value="New section 2" name="x_1777187_leave_0_leave_request_details" sys_domain="global" view="Default view">e80f601d83026210216cf7a6feaad309</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-09 07:33:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New section 2</caption><header>false</header><name>x_1777187_leave_0_leave_request_details</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-09 07:33:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e80f601d83026210216cf7a6feaad309</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1777187_leave_0_leave_request_details</sys_name><sys_overrides/><sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package><sys_policy/><sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope><sys_update_name>sys_ui_section_e80f601d83026210216cf7a6feaad309</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-09 07:33:21</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1895226255</payload_hash>
+        <record_name>Leave Request Details</record_name>
+        <reverted_from/>
+        <source>4084ac5d83ce2210216cf7a6feaad35d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-09 07:33:22</sys_created_on>
+        <sys_id>fc0f601d83026210216cf7a6feaad3e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197539bb4d80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-09 07:33:22</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>740f601d140262109cdd6a27a056f7e6</update_guid>
+        <update_guid_history>740f601d140262109cdd6a27a056f7e6:-1895226255</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-09 07:34:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>067dc3400b3c400581f93deb9d97ffb9</sys_id>
+        <sys_metadata>e80f601d83026210216cf7a6feaad309</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New section 2</sys_name>
+        <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+        <sys_parent display_value="Leave Request Details">8fb6a81183026210216cf7a6feaad337</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+        <sys_scope_delete display_value="">7c9cbf7cdfd847108f9b129e6c6ff8e4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_e80f601d83026210216cf7a6feaad309</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_e80f601d83026210216cf7a6feaad309">fc0f601d83026210216cf7a6feaad3e6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-09 07:34:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

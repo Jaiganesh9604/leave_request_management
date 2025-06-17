@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1777187_leave_0.leave_calculator</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>leave_calculator</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var leave_calculator = Class.create();
+leave_calculator.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+ 
+	getDifference: function(){
+		var date1= new GlideDateTime();
+		date1.setValue(this.getParameter('sysparm_start'));
+		var date2=new GlideDateTime();
+		date2.setValue(this.getParameter('sysparm_end'));
+ 
+		var duration=GlideDate.subtract(date1,date2);
+		return duration.getNumericValue();
+ 
+	},
+ 
+    type: 'leave_calculator'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-16 05:24:05</sys_created_on>
+        <sys_id>7a64986b834eea10216cf7a6feaad3fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>leave_calculator</sys_name>
+        <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+        <sys_update_name>sys_script_include_7a64986b834eea10216cf7a6feaad3fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-16 05:24:05</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</application>
+        <file_path/>
+        <instance_id>b0f3844eeb702e5056eafddacad0cd6a</instance_id>
+        <instance_name>dev324208</instance_name>
+        <name>sys_script_include_7a64986b834eea10216cf7a6feaad3fb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1777187_leave_0.leave_calculator&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;leave_calculator&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var leave_calculator = Class.create();
+leave_calculator.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+ 
+	getDifference: function(){
+		var date1= new GlideDateTime();
+		date1.setValue(this.getParameter('sysparm_start'));
+		var date2=new GlideDateTime();
+		date2.setValue(this.getParameter('sysparm_end'));
+ 
+		var duration=GlideDate.subtract(date1,date2);
+		return duration.getNumericValue();
+ 
+	},
+ 
+    type: 'leave_calculator'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-16 05:24:05&lt;/sys_created_on&gt;&lt;sys_id&gt;7a64986b834eea10216cf7a6feaad3fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;leave_calculator&lt;/sys_name&gt;&lt;sys_package display_value="Leave Request Management" source="x_1777187_leave_0"&gt;8484ac5d83ce2210216cf7a6feaad358&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Leave Request Management"&gt;8484ac5d83ce2210216cf7a6feaad358&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_7a64986b834eea10216cf7a6feaad3fb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-16 05:24:05&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-829638506</payload_hash>
+        <record_name>leave_calculator</record_name>
+        <reverted_from/>
+        <source>4084ac5d83ce2210216cf7a6feaad35d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-16 05:24:07</sys_created_on>
+        <sys_id>e38410e3838eea10216cf7a6feaad372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1977731e1d90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-16 05:24:07</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>e78410e3f08eea10f37e0e751e7a8271</update_guid>
+        <update_guid_history>e78410e3f08eea10f37e0e751e7a8271:-829638506</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-16 06:02:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>440e65f7af0342608e93ce546929f4e1</sys_id>
+        <sys_metadata>7a64986b834eea10216cf7a6feaad3fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>leave_calculator</sys_name>
+        <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+        <sys_scope_delete display_value="">7c9cbf7cdfd847108f9b129e6c6ff8e4</sys_scope_delete>
+        <sys_update_name>sys_script_include_7a64986b834eea10216cf7a6feaad3fb</sys_update_name>
+        <sys_update_version display_value="sys_script_include_7a64986b834eea10216cf7a6feaad3fb">e38410e3838eea10216cf7a6feaad372</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-16 06:02:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

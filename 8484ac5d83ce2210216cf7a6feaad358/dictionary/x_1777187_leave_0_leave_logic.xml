@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cd77e782834a6610216cf7a6feaad3f5" label="Leave Logic" max_length="40" name="x_1777187_leave_0_leave_logic" type="collection">
+        <element label="End Month" max_length="40" name="end_month" type="string"/>
+        <element choice="3" label="Leave Assignment" max_length="40" name="leave_assignment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yearly" sequence="0" value="yearly"/>
+                <element inactive_on_update="false" label="Monthly" sequence="1" value="monthly"/>
+            </choice>
+        </element>
+        <element choice="3" choice_field="leave_type" choice_table="x_1777187_leave_0_leave_request_details" label="Leave Type" max_length="40" name="leave_type" type="choice">
+            <choice/>
+        </element>
+        <element label="Starting Month" max_length="40" name="starting_month" type="string"/>
+        <element label="Country" max_length="32" name="country" reference="core_country" type="reference"/>
+        <element label="Leaves" max_length="40" name="leaves" type="float"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <index name="index">
+            <element name="country"/>
+        </index>
+    </element>
+</database>

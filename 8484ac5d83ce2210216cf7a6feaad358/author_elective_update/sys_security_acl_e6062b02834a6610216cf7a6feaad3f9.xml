@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1777187_leave_0_leave_bucket</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-12 04:48:28</sys_created_on>
+        <sys_id>e6062b02834a6610216cf7a6feaad3f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1777187_leave_0_leave_bucket</sys_name>
+        <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+        <sys_update_name>sys_security_acl_e6062b02834a6610216cf7a6feaad3f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-12 04:48:28</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</application>
+        <file_path/>
+        <instance_id>b0f3844eeb702e5056eafddacad0cd6a</instance_id>
+        <instance_name>dev324208</instance_name>
+        <name>sys_security_acl_e6062b02834a6610216cf7a6feaad3f9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Local</local_or_existing><name>x_1777187_leave_0_leave_bucket</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-12 04:48:28</sys_created_on><sys_id>e6062b02834a6610216cf7a6feaad3f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1777187_leave_0_leave_bucket</sys_name><sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package><sys_policy/><sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope><sys_update_name>sys_security_acl_e6062b02834a6610216cf7a6feaad3f9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-12 04:48:28</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-975912919</payload_hash>
+        <record_name>x_1777187_leave_0_leave_bucket</record_name>
+        <reverted_from/>
+        <source>4084ac5d83ce2210216cf7a6feaad35d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-12 04:48:29</sys_created_on>
+        <sys_id>6a066b02834a6610216cf7a6feaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1976277d1910000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-12 04:48:29</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>6e066b02be4a661073077752f396dde9</update_guid>
+        <update_guid_history>6e066b02be4a661073077752f396dde9:-975912919</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-16 07:11:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>1b201a4d13f040b9b25074ed8014ed89</sys_id>
+        <sys_metadata>e6062b02834a6610216cf7a6feaad3f9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1777187_leave_0_leave_bucket</sys_name>
+        <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+        <sys_parent display_value="x_1777187_leave_0_leave_bucket">d9062b02834a6610216cf7a6feaad3c1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+        <sys_scope_delete display_value="">7c9cbf7cdfd847108f9b129e6c6ff8e4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_e6062b02834a6610216cf7a6feaad3f9</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_e6062b02834a6610216cf7a6feaad3f9">6a066b02834a6610216cf7a6feaad3ea</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-16 07:11:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

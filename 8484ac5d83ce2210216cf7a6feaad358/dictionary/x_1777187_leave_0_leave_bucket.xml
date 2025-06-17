@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="95062b02834a6610216cf7a6feaad3bf" label="Leave Bucket" max_length="40" name="x_1777187_leave_0_leave_bucket" type="collection">
+        <element label="Balance" max_length="40" name="balance" type="float"/>
+        <element label="Last Year Balance" max_length="40" name="last_year_balance" type="string"/>
+        <element label="Acrrued" max_length="40" name="acrrued" type="float"/>
+        <element label="Leave Taken" max_length="40" name="leave_taken" type="float"/>
+        <element choice="3" choice_field="leave_type" choice_table="x_1777187_leave_0_leave_request_details" label="Leave Type" max_length="40" name="leave_type" type="choice">
+            <choice/>
+        </element>
+        <element label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>
