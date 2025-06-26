@@ -13,11 +13,11 @@
 leave_calculator.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     getDifference: function() {
         var date1 = new GlideDateTime();
-        date1.setDisplayValue(this.parameter('sysparm_start'));
+        date1.setDisplayValue(this.getParameter('sysparm_start'));
         var date2 = new GlideDateTime();
-        date2.setDisplayValue(this.parameter('sysparm_end'));
+        date2.setDisplayValue(this.getParameter('sysparm_end'));
         var duration = GlideDate.subtract(date1, date2);
-        gs.log(duration.getNumericValue());
+        // gs.info('Duration' + duration.getNumericValue());
         return duration.getNumericValue();
     },
     getLeaveBucket: function() {
@@ -35,6 +35,9 @@ leave_calculator.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
         return JSON.stringify(leaveDetails);
 
     },
+	// getInfo: function(response){
+	// 	return response + " Hello";
+	// },
 
     type: 'leave_calculator'
 });]]></script>
@@ -42,13 +45,13 @@ leave_calculator.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-16 05:14:39</sys_created_on>
         <sys_id>50bc046b834eea10216cf7a6feaad350</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>leave_calculator</sys_name>
         <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
         <sys_update_name>sys_script_include_50bc046b834eea10216cf7a6feaad350</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-16 06:21:18</sys_updated_on>
+        <sys_updated_on>2025-06-25 12:42:03</sys_updated_on>
     </sys_script_include>
 </record_update>

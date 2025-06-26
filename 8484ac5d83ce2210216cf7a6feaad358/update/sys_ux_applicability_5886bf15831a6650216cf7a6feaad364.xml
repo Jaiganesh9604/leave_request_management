@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_1777187_leave_0.LRM Manager</api_name>
+        <description/>
+        <name>LRM Manager</name>
+        <role_names>x_1777187_leave_0.manager</role_names>
+        <roles name="x_1777187_leave_0.manager">4084ac5d83ce2210216cf7a6feaad361</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-22 08:21:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5886bf15831a6650216cf7a6feaad364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LRM Manager</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+        <sys_update_name>sys_ux_applicability_5886bf15831a6650216cf7a6feaad364</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-22 08:21:13</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>3</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">798fee3f834e6e10216cf7a6feaad3ea</sp_column>
+        <sp_widget display_value="Favorite">523f6529532d0110fedfddeeff7b1298</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 18:01:45</sys_created_on>
+        <sys_id>a38b008c8316ae10216cf7a6feaad372</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+        <sys_update_name>sp_instance_a38b008c8316ae10216cf7a6feaad372</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 18:05:36</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"table": {
+		"value": "leave request management",
+		"displayValue": "leave request management"
+	},
+	"sys_id": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=a38b008c8316ae10216cf7a6feaad372"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</application>
+        <file_path/>
+        <instance_id>b0f3844eeb702e5056eafddacad0cd6a</instance_id>
+        <instance_name>dev324208</instance_name>
+        <name>sp_instance_a38b008c8316ae10216cf7a6feaad372</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;3&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;798fee3f834e6e10216cf7a6feaad3ea&lt;/sp_column&gt;&lt;sp_widget display_value="Favorite"&gt;523f6529532d0110fedfddeeff7b1298&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-17 18:01:45&lt;/sys_created_on&gt;&lt;sys_id&gt;a38b008c8316ae10216cf7a6feaad372&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Leave Request Management" source="x_1777187_leave_0"&gt;8484ac5d83ce2210216cf7a6feaad358&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Leave Request Management"&gt;8484ac5d83ce2210216cf7a6feaad358&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_a38b008c8316ae10216cf7a6feaad372&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-17 18:05:36&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"table": {
+		"value": "leave request management",
+		"displayValue": "leave request management"
+	},
+	"sys_id": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a38b008c8316ae10216cf7a6feaad372"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1472400851</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>9a78553f83866e10216cf7a6feaad36f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 18:05:36</sys_created_on>
+        <sys_id>087c44cc8316ae10216cf7a6feaad3d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1977f1168cf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 18:05:36</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>8c7c44cc3516ae10cbde6745ec85f7d7</update_guid>
+        <update_guid_history>8c7c44cc3516ae10cbde6745ec85f7d7:1472400851,b10cc88c7e16ae100d9a44f0719252e2:1480176788,44cb808c4816ae100942e37c6575b47c:1472400851,ab8b008c7716ae104a1f09b42b491173:1069617773</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">308c40cc8316ae10216cf7a6feaad360</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 18:05:56</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>9faf8d280c9c4300b0d0baab09542471</sys_id>
+        <sys_metadata>a38b008c8316ae10216cf7a6feaad372</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+        <sys_scope_delete display_value="">7c9cbf7cdfd847108f9b129e6c6ff8e4</sys_scope_delete>
+        <sys_update_name>sp_instance_a38b008c8316ae10216cf7a6feaad372</sys_update_name>
+        <sys_update_version display_value="sp_instance_a38b008c8316ae10216cf7a6feaad372">087c44cc8316ae10216cf7a6feaad3d8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 18:05:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name>padding-top-lg</class_name>
+        <container_class_name/>
+        <name>LRM Home - Container 5</name>
+        <order>5</order>
+        <semantic_tag/>
+        <sp_page display_value="lrm_home">658f627b834e6e10216cf7a6feaad333</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 11:19:41</sys_created_on>
+        <sys_id>868fee3f834e6e10216cf7a6feaad3fa</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>LRM Home - Container 5</sys_name>
+        <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+        <sys_update_name>sp_container_868fee3f834e6e10216cf7a6feaad3fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 18:03:27</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</application>
+        <file_path/>
+        <instance_id>b0f3844eeb702e5056eafddacad0cd6a</instance_id>
+        <instance_name>dev324208</instance_name>
+        <name>sp_container_868fee3f834e6e10216cf7a6feaad3fa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name>padding-top-lg</class_name><container_class_name/><name>LRM Home - Container 5</name><order>5</order><semantic_tag/><sp_page display_value="lrm_home">658f627b834e6e10216cf7a6feaad333</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-17 11:19:41</sys_created_on><sys_id>868fee3f834e6e10216cf7a6feaad3fa</sys_id><sys_mod_count>14</sys_mod_count><sys_name>LRM Home - Container 5</sys_name><sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package><sys_policy/><sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope><sys_update_name>sp_container_868fee3f834e6e10216cf7a6feaad3fa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-17 18:03:27</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>780246990</payload_hash>
+        <record_name>LRM Home - Container 5</record_name>
+        <reverted_from/>
+        <source>9a78553f83866e10216cf7a6feaad36f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 18:03:28</sys_created_on>
+        <sys_id>a0fb488c8316ae10216cf7a6feaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1977f0f717e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 18:03:28</sys_updated_on>
+        <type>Container</type>
+        <update_guid>28fb488cda16ae1090ae892408be1dce</update_guid>
+        <update_guid_history>28fb488cda16ae1090ae892408be1dce:780246990,66eb488cde16ae10f9b58732316de318:-418391859,e9eb088cf316ae102fd1bb7ebff41589:780246990,a04b884c3716ae106b6912250c2a042c:-418391859,f93b484c3016ae101f83d1b5ae71d61a:-1617030708,fbd9c8c83216ae1069879c6f0e12f3e7:1479297739,218904c8f116ae1012d79d703fabc741:-1617030708,fc984088ee16ae10b3d42a6299a9aa53:-418391859,fb884088ec16ae109f62332de3a10704:780246990,3e880088ff16ae10c0c7d9ab51d9218a:-418391859,d9880088d316ae1007596b524acfe72e:-1617030708,bb78cc487116ae10b581ea742679a1a8:-418391859,8152ba33df8e6e108b9507b6ef9f2604:780246990,69a1fa3f5e4e6e102028dc452711c340:1614206762,4a8fee3ff04e6e10843da0d3ef53c8fb:-1697491002</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="LRM Home - Container 5">31fb088c8316ae10216cf7a6feaad350</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 18:03:32</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>1d1070096b194ba8b805428f0d68db90</sys_id>
+        <sys_metadata>868fee3f834e6e10216cf7a6feaad3fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LRM Home - Container 5</sys_name>
+        <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+        <sys_scope_delete display_value="">7c9cbf7cdfd847108f9b129e6c6ff8e4</sys_scope_delete>
+        <sys_update_name>sp_container_868fee3f834e6e10216cf7a6feaad3fa</sys_update_name>
+        <sys_update_version display_value="sp_container_868fee3f834e6e10216cf7a6feaad3fa">a0fb488c8316ae10216cf7a6feaad3cf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 18:03:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

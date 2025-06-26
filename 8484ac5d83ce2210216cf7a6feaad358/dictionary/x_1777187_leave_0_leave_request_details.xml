@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="8fb6a81183026210216cf7a6feaad337" label="Leave Request Details" max_length="40" name="x_1777187_leave_0_leave_request_details" type="collection">
+    <element db_object_id="8fb6a81183026210216cf7a6feaad337" label="Leave Request Details" max_length="40" name="x_1777187_leave_0_leave_request_details" text_index="true" type="collection">
         <element label="Leave Taken" max_length="40" name="leave_taken" read_only="true" type="float"/>
         <element label="Balance" max_length="40" name="balance" read_only="true" type="float"/>
         <element label="Acrrued" max_length="40" name="acrrued" read_only="true" type="float"/>

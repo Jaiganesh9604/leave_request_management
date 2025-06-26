@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <semantic_tag/>
+        <size>4</size>
+        <size_lg/>
+        <size_sm>6</size_sm>
+        <size_xs/>
+        <sp_row display_value="1">358fee3f834e6e10216cf7a6feaad3e8</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 11:19:41</sys_created_on>
+        <sys_id>798fee3f834e6e10216cf7a6feaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+        <sys_update_name>sp_column_798fee3f834e6e10216cf7a6feaad3ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 11:19:41</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</application>
+        <file_path/>
+        <instance_id>b0f3844eeb702e5056eafddacad0cd6a</instance_id>
+        <instance_name>dev324208</instance_name>
+        <name>sp_column_798fee3f834e6e10216cf7a6feaad3ea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><semantic_tag/><size>4</size><size_lg/><size_sm>6</size_sm><size_xs/><sp_row display_value="1">358fee3f834e6e10216cf7a6feaad3e8</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-17 11:19:41</sys_created_on><sys_id>798fee3f834e6e10216cf7a6feaad3ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package><sys_policy/><sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope><sys_update_name>sp_column_798fee3f834e6e10216cf7a6feaad3ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-17 11:19:41</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>98541405</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>9a78553f83866e10216cf7a6feaad36f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 11:19:41</sys_created_on>
+        <sys_id>398fee3f834e6e10216cf7a6feaad3ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1977d9dc6110000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 11:19:41</sys_updated_on>
+        <type>Column</type>
+        <update_guid>3d8fee3f334e6e10c0cea38c11209ceb</update_guid>
+        <update_guid_history>3d8fee3f334e6e10c0cea38c11209ceb:98541405</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">de8c48cc8316ae10216cf7a6feaad312</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 18:06:02</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>026093140d7049d584fe26482d5c6cb1</sys_id>
+        <sys_metadata>798fee3f834e6e10216cf7a6feaad3ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+        <sys_scope_delete display_value="">7c9cbf7cdfd847108f9b129e6c6ff8e4</sys_scope_delete>
+        <sys_update_name>sp_column_798fee3f834e6e10216cf7a6feaad3ea</sys_update_name>
+        <sys_update_version display_value="sp_column_798fee3f834e6e10216cf7a6feaad3ea">398fee3f834e6e10216cf7a6feaad3ec</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 18:06:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

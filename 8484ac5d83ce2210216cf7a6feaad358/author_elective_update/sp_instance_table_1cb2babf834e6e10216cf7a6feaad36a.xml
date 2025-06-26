@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color/>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter table="x_1777187_leave_0_leave_request_details">requested_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="requested_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        </filter>
+        <glyph>th-list</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by>number</order_by>
+        <order_direction>desc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">9a62fa33838e6e10216cf7a6feaad364</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 11:33:30</sys_created_on>
+        <sys_id>1cb2babf834e6e10216cf7a6feaad36a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Leave Requests</sys_name>
+        <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+        <sys_update_name>sp_instance_table_1cb2babf834e6e10216cf7a6feaad36a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 11:50:41</sys_updated_on>
+        <table>x_1777187_leave_0_leave_request_details</table>
+        <title>Leave Requests</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=1cb2babf834e6e10216cf7a6feaad36a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</application>
+        <file_path/>
+        <instance_id>b0f3844eeb702e5056eafddacad0cd6a</instance_id>
+        <instance_name>dev324208</instance_name>
+        <name>sp_instance_table_1cb2babf834e6e10216cf7a6feaad36a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color/><css/><display_field/><field_list/><filter table="x_1777187_leave_0_leave_request_details">requested_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="requested_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/></filter><glyph>th-list</glyph><id/><maximum_entries>5</maximum_entries><order>1</order><order_by>number</order_by><order_direction>desc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">9a62fa33838e6e10216cf7a6feaad364</sp_column><sp_page/><sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-17 11:33:30</sys_created_on><sys_id>1cb2babf834e6e10216cf7a6feaad36a</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Leave Requests</sys_name><sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package><sys_policy/><sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope><sys_update_name>sp_instance_table_1cb2babf834e6e10216cf7a6feaad36a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-17 11:50:41</sys_updated_on><table>x_1777187_leave_0_leave_request_details</table><title>Leave Requests</title><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=1cb2babf834e6e10216cf7a6feaad36a"/></record_update>]]></payload>
+        <payload_hash>-1305546273</payload_hash>
+        <record_name>Leave Requests</record_name>
+        <reverted_from/>
+        <source>9a78553f83866e10216cf7a6feaad36f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 11:50:41</sys_created_on>
+        <sys_id>84a672b3838e6e10216cf7a6feaad380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1977dba28620000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 11:50:41</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>0ca672b3658e6e100daa098f977df07f</update_guid>
+        <update_guid_history>0ca672b3658e6e100daa098f977df07f:-1305546273,4035f237fd8e6e10f8550fa7fd8c8d88:537819829,14b23273008e6e10d8db927c50e326b5:-2120916678</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Leave Requests">bf8cba3f838e6e10216cf7a6feaad3e7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 12:16:36</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>0b52e1e2c38d4d909df507bb9710e1b9</sys_id>
+        <sys_metadata>1cb2babf834e6e10216cf7a6feaad36a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leave Requests</sys_name>
+        <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+        <sys_scope_delete display_value="">7c9cbf7cdfd847108f9b129e6c6ff8e4</sys_scope_delete>
+        <sys_update_name>sp_instance_table_1cb2babf834e6e10216cf7a6feaad36a</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_1cb2babf834e6e10216cf7a6feaad36a">84a672b3838e6e10216cf7a6feaad380</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 12:16:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

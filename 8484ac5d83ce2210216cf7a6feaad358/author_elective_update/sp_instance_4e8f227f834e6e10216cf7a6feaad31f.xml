@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">c68f227f834e6e10216cf7a6feaad31d</sp_column>
+        <sp_widget display_value="Login">6506d341cb33020000f8d856634c9cdc</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 11:19:41</sys_created_on>
+        <sys_id>4e8f227f834e6e10216cf7a6feaad31f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Login</sys_name>
+        <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+        <sys_update_name>sp_instance_4e8f227f834e6e10216cf7a6feaad31f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 11:30:07</sys_updated_on>
+        <title>Login</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=4e8f227f834e6e10216cf7a6feaad31f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</application>
+        <file_path/>
+        <instance_id>b0f3844eeb702e5056eafddacad0cd6a</instance_id>
+        <instance_name>dev324208</instance_name>
+        <name>sp_instance_4e8f227f834e6e10216cf7a6feaad31f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="3">c68f227f834e6e10216cf7a6feaad31d</sp_column><sp_widget display_value="Login">6506d341cb33020000f8d856634c9cdc</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-17 11:19:41</sys_created_on><sys_id>4e8f227f834e6e10216cf7a6feaad31f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Login</sys_name><sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package><sys_policy/><sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope><sys_update_name>sp_instance_4e8f227f834e6e10216cf7a6feaad31f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-17 11:30:07</sys_updated_on><title>Login</title><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=4e8f227f834e6e10216cf7a6feaad31f"/></record_update>]]></payload>
+        <payload_hash>-790891819</payload_hash>
+        <record_name>Login</record_name>
+        <reverted_from/>
+        <source>9a78553f83866e10216cf7a6feaad36f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 11:30:07</sys_created_on>
+        <sys_id>f2e13233838e6e10216cf7a6feaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1977da7557d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 11:30:07</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>7ae13233308e6e10be62205bc5607eb4</update_guid>
+        <update_guid_history>7ae13233308e6e10be62205bc5607eb4:-790891819,068f227ff64e6e10fff0bae4809af221:736312276</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Login">d842f633838e6e10216cf7a6feaad3be</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 11:31:35</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>1d7f1adb5eb04762b06f3d3f227d9689</sys_id>
+        <sys_metadata>4e8f227f834e6e10216cf7a6feaad31f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Login</sys_name>
+        <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+        <sys_scope_delete display_value="">7c9cbf7cdfd847108f9b129e6c6ff8e4</sys_scope_delete>
+        <sys_update_name>sp_instance_4e8f227f834e6e10216cf7a6feaad31f</sys_update_name>
+        <sys_update_version display_value="sp_instance_4e8f227f834e6e10216cf7a6feaad31f">f2e13233838e6e10216cf7a6feaad3b5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 11:31:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

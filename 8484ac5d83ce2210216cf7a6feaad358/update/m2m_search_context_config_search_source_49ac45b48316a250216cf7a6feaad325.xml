@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>200</order>
+        <search_context_config display_value="Leave Request Management - Workspace Search">d39cc1b4cb16a250ae02df48473e2825</search_context_config>
+        <source display_value="Leave Request Management - sysapproval_approver">45ac45b48316a250216cf7a6feaad31f</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 06:41:33</sys_created_on>
+        <sys_id>49ac45b48316a250216cf7a6feaad325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_49ac45b48316a250216cf7a6feaad325</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 06:41:33</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

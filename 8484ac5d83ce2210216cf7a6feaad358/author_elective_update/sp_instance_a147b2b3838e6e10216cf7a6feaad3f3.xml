@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">8e8904c88316ae10216cf7a6feaad3b4</sp_column>
+        <sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 11:53:31</sys_created_on>
+        <sys_id>a147b2b3838e6e10216cf7a6feaad3f3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+        <sys_update_name>sp_instance_a147b2b3838e6e10216cf7a6feaad3f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 17:53:36</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"href": {
+		"value": "",
+		"displayValue": ""
+	},
+	"button_text": {
+		"value": "Create a Leave Request",
+		"displayValue": "Create a Leave Request"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=a147b2b3838e6e10216cf7a6feaad3f3"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</application>
+        <file_path/>
+        <instance_id>b0f3844eeb702e5056eafddacad0cd6a</instance_id>
+        <instance_name>dev324208</instance_name>
+        <name>sp_instance_a147b2b3838e6e10216cf7a6feaad3f3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;primary&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;8e8904c88316ae10216cf7a6feaad3b4&lt;/sp_column&gt;&lt;sp_widget display_value="link-button"&gt;abc50de6d702120023c84f80de61036a&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-17 11:53:31&lt;/sys_created_on&gt;&lt;sys_id&gt;a147b2b3838e6e10216cf7a6feaad3f3&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Leave Request Management" source="x_1777187_leave_0"&gt;8484ac5d83ce2210216cf7a6feaad358&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Leave Request Management"&gt;8484ac5d83ce2210216cf7a6feaad358&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_a147b2b3838e6e10216cf7a6feaad3f3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-17 17:53:36&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"href": {
+		"value": "",
+		"displayValue": ""
+	},
+	"button_text": {
+		"value": "Create a Leave Request",
+		"displayValue": "Create a Leave Request"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a147b2b3838e6e10216cf7a6feaad3f3"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-889704842</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>9a78553f83866e10216cf7a6feaad36f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 17:53:37</sys_created_on>
+        <sys_id>90b9c4c88316ae10216cf7a6feaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1977f066cf40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 17:53:37</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>18b9c4c8b116ae10e6c9e307253b47cc</update_guid>
+        <update_guid_history>18b9c4c8b116ae10e6c9e307253b47cc:-889704842,0ac84488b716ae101d0703d5b2be32d0:1308088809,bbb844885216ae10d8712badb4a44e04:-1198570769,8fd736b7f38e6e10e2b8928f1c7d8c4a:-1032126531,a947b2b3448e6e1071f148a6905aa2f4:-495953588</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">8dc948c88316ae10216cf7a6feaad3c2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 17:53:56</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>161a17c9b14e4b02977b481494cb7251</sys_id>
+        <sys_metadata>a147b2b3838e6e10216cf7a6feaad3f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+        <sys_scope_delete display_value="">7c9cbf7cdfd847108f9b129e6c6ff8e4</sys_scope_delete>
+        <sys_update_name>sp_instance_a147b2b3838e6e10216cf7a6feaad3f3</sys_update_name>
+        <sys_update_version display_value="sp_instance_a147b2b3838e6e10216cf7a6feaad3f3">90b9c4c88316ae10216cf7a6feaad3cd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 17:53:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

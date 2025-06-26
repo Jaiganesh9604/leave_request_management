@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="check status - lrm">9dd37b1e83d6aa50216cf7a6feaad320</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"da18b91be7944beaae8cca3102062406","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"da18b91be7944beaae8cca3102062406"}],"goals":[{"name":"primary","trigger_id":"da18b91be7944beaae8cca3102062406","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"159d44bfbb7749899cb1a3aa37117d9b","name":"Start","expert_mode":false},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"a86ffa6f7e714e6095b7edb0c6b10d55","name":"End","expert_mode":false},{"type":"InputPrompt","variable_id":"7fa6afaa90004299b0eb0b1624106d3d","message":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Enter your Leave request reference number\", vaContext.getRequesterLang())"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true},"request_feedback":true,"skippable":{"type":"Applicability","mode":"script","value":"false"},"skipreprompt":{"type":"Applicability","mode":"script","value":"false"},"metadataScript":"","cardName":"","cardFields":[],"id":"929b94e863a1405abebde82d53a80158","name":"Get leave ref number","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"formatType":"Text","validationScript":"","description":""},{"type":"TextOutputPrompt","value":[{"type":"String","mode":"string","value":"gs.getMessageLang(\"va:topic:05ff2bd683d6aa50216cf7a6feaad3c0:node:4133245d67ca45b4b0fec47c2efee611:field:0 {0}\", vaContext.getRequesterLang(), [vaInputs.user.name.getDisplayValue()])"}],"request_feedback":true,"isCollapsible":true,"id":"4133245d67ca45b4b0fec47c2efee611","name":"Welcome Node","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"secure":false},{"type":"CRUDAction","mode":"read","read_mode":"variable","query":"number={{vaInputs.get_leave_ref_number}}","variable_id":"0c4a56da7d8843cc8470e0ba58042a26","id":"84498fc8e4b24e04853aa6ca47b1c775","name":"Get leave request record","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"condition":{"type":"Condition","mode":"glide_query","value":"number={{vaInputs.get_leave_ref_number}}"}},{"type":"RecordOutputPrompt","mode":"variable","table":"x_1777187_leave_0_leave_request_details","variable_id":"0c4a56da7d8843cc8470e0ba58042a26","fields":["requested_by","status","approval","sys_created_on"],"request_feedback":true,"id":"9675f5cbe28d49a89d65f6a6da89a6c2","name":"Show details","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"condition":{"type":"Condition","mode":"glide_query","value":""}},{"type":"InputPrompt","variable_id":"ec56c3e6b4354bf4975a1537e44d8839","message":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Do you want end this chat?\", vaContext.getRequesterLang())"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true},"request_feedback":false,"skippable":{"type":"Applicability","mode":"script","value":"false"},"skipreprompt":{"type":"Applicability","mode":"script","value":"false"},"metadataScript":"","cardName":"","cardFields":[],"id":"5c51647a37b343d6a7145713e3469816","name":"End Chat?","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"description":""},{"type":"Decision","name":"Decision","branches":[{"type":"Branch","label":"false","expression":{"type":"Applicability","mode":"query","value":"end_chat_=true"},"id":"0a0bb3759359473d9b2d03e3fee60272","name":"false","expert_mode":false},{"type":"Branch","label":"true","expression":{"type":"Applicability","mode":"query","value":"end_chat_=false"},"id":"9e52ba40ac1743b78f95940277400643","name":"true","expert_mode":false}],"id":"05edd733157a451a8f7bb00cba363cc2","goal_id":"primary","expert_mode":false}],"edges":[{"type":"Edge","source_node_id":"929b94e863a1405abebde82d53a80158","target_node_id":"84498fc8e4b24e04853aa6ca47b1c775","id":"b55fd3b97b284568997eefa0a4f968d0"},{"type":"Edge","source_node_id":"84498fc8e4b24e04853aa6ca47b1c775","target_node_id":"9675f5cbe28d49a89d65f6a6da89a6c2","id":"32c3bb3980a74c26906de7bb899f77a3"},{"type":"Edge","source_node_id":"5c51647a37b343d6a7145713e3469816","target_node_id":"05edd733157a451a8f7bb00cba363cc2","id":"7f42c113d12d47d582d07d380b4d362d"},{"type":"Edge","source_node_id":"05edd733157a451a8f7bb00cba363cc2","target_node_id":"a86ffa6f7e714e6095b7edb0c6b10d55","branch_id":"0a0bb3759359473d9b2d03e3fee60272","id":"5b43c79a6bff45e48081b4d3773a39c0","name":"0a0bb3759359473d9b2d03e3fee60272"},{"type":"Edge","source_node_id":"159d44bfbb7749899cb1a3aa37117d9b","target_node_id":"4133245d67ca45b4b0fec47c2efee611","id":"f32f1c1de6a0432cb9685b5ca4d7a622"},{"type":"Edge","source_node_id":"4133245d67ca45b4b0fec47c2efee611","target_node_id":"929b94e863a1405abebde82d53a80158","id":"09b18b17136249da9748f76c5635cecc"},{"type":"Edge","source_node_id":"9675f5cbe28d49a89d65f6a6da89a6c2","target_node_id":"5c51647a37b343d6a7145713e3469816","id":"46de91c389e142acb2d626c3e70d67be"},{"type":"Edge","source_node_id":"05edd733157a451a8f7bb00cba363cc2","target_node_id":"929b94e863a1405abebde82d53a80158","branch_id":"9e52ba40ac1743b78f95940277400643","id":"f22039f056cd4082bad3de04445e1879","name":"9e52ba40ac1743b78f95940277400643"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","auto_select":false,"id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"aiInput":false,"list":false},{"type":"String","name":"get_leave_ref_number","list":false,"id":"7fa6afaa90004299b0eb0b1624106d3d","formatType":"Text","validationScript":"","secure":false,"sensitive":false,"aiInput":false},{"type":"Reference","table":"x_1777187_leave_0_leave_request_details","auto_select":false,"id":"0c4a56da7d8843cc8470e0ba58042a26","name":"get_leave_request_record","formatType":"text","secure":false,"sensitive":false,"aiInput":false,"list":false},{"type":"True/False","id":"ec56c3e6b4354bf4975a1537e44d8839","name":"end_chat_","formatType":"text","secure":false,"sensitive":false,"aiInput":false,"list":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"8484ac5d83ce2210216cf7a6feaad358","domain":"global","topic_type":"STANDARD","channels":[],"dialog_acts_enabled":false,"id":"05ff2bd683d6aa50216cf7a6feaad3c0","name":"check status - lrm","key_phrases":["check status - lrm"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"description":"","model_type":"nlu_keyword","foundational":false,"modify_confirmation_enabled":false,"context_profiles":[],"title":"check status of leave request","library":false,"csTopicId":"9dd37b1e83d6aa50216cf7a6feaad320","readOnly":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>05ff2bd683d6aa50216cf7a6feaad3c0</design_topic_id>
+        <graph>{
+  "graph_api_version": "1.0.78",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "159d44bfbb7749899cb1a3aa37117d9b": {
+          "id": "159d44bfbb7749899cb1a3aa37117d9b",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "a86ffa6f7e714e6095b7edb0c6b10d55": {
+          "id": "a86ffa6f7e714e6095b7edb0c6b10d55",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "929b94e863a1405abebde82d53a80158": {
+          "id": "929b94e863a1405abebde82d53a80158",
+          "stepType": "TextPrompt",
+          "name": "Get leave ref number",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Enter your Leave request reference number"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "7fa6afaa90004299b0eb0b1624106d3d",
+          "detailDescription": "",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          },
+          "requestFeedback": true
+        },
+        "4133245d67ca45b4b0fec47c2efee611": {
+          "id": "4133245d67ca45b4b0fec47c2efee611",
+          "stepType": "TextOutput",
+          "name": "Welcome Node",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Hii "
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.user.name}}",
+                        "displayValue": "Input Variables➛User➛Name"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ", "
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Welcome to leave Request Management Application. How can I help?"
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "f66062d3ead24c32b8eb25538faf800f"
+            }
+          ],
+          "isCollapsible": true,
+          "requestFeedback": true,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "84498fc8e4b24e04853aa6ca47b1c775": {
+          "id": "84498fc8e4b24e04853aa6ca47b1c775",
+          "stepType": "LookupRecord",
+          "name": "Get leave request record",
+          "condition": {
+            "mode": "glide_query",
+            "value": "number={{vaInputs.get_leave_ref_number}}"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "0c4a56da7d8843cc8470e0ba58042a26"
+        },
+        "9675f5cbe28d49a89d65f6a6da89a6c2": {
+          "id": "9675f5cbe28d49a89d65f6a6da89a6c2",
+          "stepType": "RecordOutput",
+          "name": "Show details",
+          "variableId": "0c4a56da7d8843cc8470e0ba58042a26",
+          "cardTemplate": "General",
+          "cardFields": {},
+          "mode": "variable",
+          "tableName": "x_1777187_leave_0_leave_request_details",
+          "fields": [
+            "requested_by",
+            "status",
+            "approval",
+            "sys_created_on"
+          ],
+          "cardDefinition": {
+            "name": "Record",
+            "value": "General"
+          },
+          "requestFeedback": true,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": ""
+          }
+        },
+        "5c51647a37b343d6a7145713e3469816": {
+          "id": "5c51647a37b343d6a7145713e3469816",
+          "stepType": "BooleanPrompt",
+          "name": "End Chat?",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Do you want end this chat?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "ec56c3e6b4354bf4975a1537e44d8839",
+          "detailDescription": ""
+        },
+        "05edd733157a451a8f7bb00cba363cc2": {
+          "id": "05edd733157a451a8f7bb00cba363cc2",
+          "stepType": "Decision",
+          "name": "Decision"
+        }
+      },
+      "edges": [
+        {
+          "id": "b55fd3b97b284568997eefa0a4f968d0",
+          "edgeType": "Edge",
+          "source": "929b94e863a1405abebde82d53a80158",
+          "target": "84498fc8e4b24e04853aa6ca47b1c775",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "32c3bb3980a74c26906de7bb899f77a3",
+          "edgeType": "Edge",
+          "source": "84498fc8e4b24e04853aa6ca47b1c775",
+          "target": "9675f5cbe28d49a89d65f6a6da89a6c2",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "7f42c113d12d47d582d07d380b4d362d",
+          "edgeType": "Edge",
+          "source": "5c51647a37b343d6a7145713e3469816",
+          "target": "05edd733157a451a8f7bb00cba363cc2",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "5b43c79a6bff45e48081b4d3773a39c0",
+          "edgeType": "Branch",
+          "source": "05edd733157a451a8f7bb00cba363cc2",
+          "target": "a86ffa6f7e714e6095b7edb0c6b10d55",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.end_chat_=true",
+            "mode": "query"
+          },
+          "label": "false"
+        },
+        {
+          "id": "f32f1c1de6a0432cb9685b5ca4d7a622",
+          "edgeType": "Edge",
+          "source": "159d44bfbb7749899cb1a3aa37117d9b",
+          "target": "4133245d67ca45b4b0fec47c2efee611",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "09b18b17136249da9748f76c5635cecc",
+          "edgeType": "Edge",
+          "source": "4133245d67ca45b4b0fec47c2efee611",
+          "target": "929b94e863a1405abebde82d53a80158",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "46de91c389e142acb2d626c3e70d67be",
+          "edgeType": "Edge",
+          "source": "9675f5cbe28d49a89d65f6a6da89a6c2",
+          "target": "5c51647a37b343d6a7145713e3469816",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "f22039f056cd4082bad3de04445e1879",
+          "edgeType": "Branch",
+          "source": "05edd733157a451a8f7bb00cba363cc2",
+          "target": "929b94e863a1405abebde82d53a80158",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.end_chat_=false",
+            "mode": "query"
+          },
+          "label": "true"
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "7fa6afaa90004299b0eb0b1624106d3d": {
+      "id": "7fa6afaa90004299b0eb0b1624106d3d",
+      "name": "get_leave_ref_number",
+      "label": "Get Leave Ref Number",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTc1MDg0NzMzMTM2OCBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "nodeId": "929b94e863a1405abebde82d53a80158",
+      "isHidden": false
+    },
+    "0c4a56da7d8843cc8470e0ba58042a26": {
+      "id": "0c4a56da7d8843cc8470e0ba58042a26",
+      "name": "get_leave_request_record",
+      "label": "Get Leave Request Record",
+      "varType": "reference",
+      "table": "x_1777187_leave_0_leave_request_details",
+      "category": "vaInputs",
+      "nodeId": "9675f5cbe28d49a89d65f6a6da89a6c2",
+      "isHidden": false
+    },
+    "ec56c3e6b4354bf4975a1537e44d8839": {
+      "id": "ec56c3e6b4354bf4975a1537e44d8839",
+      "name": "end_chat_",
+      "label": "End Chat?",
+      "varType": "boolean",
+      "secure": false,
+      "category": "vaInputs",
+      "nodeId": "5c51647a37b343d6a7145713e3469816",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <name>check status - lrm</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 10:42:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d5d37b1e83d6aa50216cf7a6feaad327</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+        <sys_update_name>sys_cb_design_topic_d5d37b1e83d6aa50216cf7a6feaad327</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 11:52:26</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

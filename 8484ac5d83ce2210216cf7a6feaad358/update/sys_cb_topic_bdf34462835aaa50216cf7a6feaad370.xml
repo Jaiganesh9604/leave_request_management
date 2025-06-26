@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <context_profiles/>
+        <description/>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph>{
+  "graph_api_version": "1.0.78",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "cbd6ab1be1fb4fe28db664063ab30611": {
+          "id": "cbd6ab1be1fb4fe28db664063ab30611",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "50f99b66b5f4406d9bad169261b5f277": {
+          "id": "50f99b66b5f4406d9bad169261b5f277",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "68f150a9851441e4858ee1b3961cdda8": {
+          "id": "68f150a9851441e4858ee1b3961cdda8",
+          "stepType": "TextOutput",
+          "name": "Welcome Message",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Hi "
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.user.name}}",
+                        "displayValue": "Input Variables➛User➛Name"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Welcome to Our application. Please enter the details to create a new leave request"
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "70e8d53d040e4056a9c541ab96e969fc"
+            }
+          ],
+          "isCollapsible": true,
+          "requestFeedback": true,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "363b568fd7b94116b3bd76a6c67895e3": {
+          "name": "Select leave type",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Select the leave type"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "0999b46480e349f6a6e9c22a816b0300",
+          "detailDescription": "",
+          "id": "363b568fd7b94116b3bd76a6c67895e3",
+          "stepType": "ChoicePrompt",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "4a74f7bd3f6b4314ad510ac78ecb3c5f": {
+          "id": "4a74f7bd3f6b4314ad510ac78ecb3c5f",
+          "stepType": "DateTimePrompt",
+          "name": "Start date",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please select the start date"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "03b867c92a3748c6a4d1ecdd2fb352d0",
+          "detailDescription": ""
+        },
+        "1549661d21d54aaea98ca4b1d535f72c": {
+          "id": "1549661d21d54aaea98ca4b1d535f72c",
+          "stepType": "BooleanPrompt",
+          "name": "Half day",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Half day?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "b07a50158ca44e579a3b2a1391440864",
+          "detailDescription": ""
+        },
+        "cafd2ddaf96b463e84d40063b9312dca": {
+          "id": "cafd2ddaf96b463e84d40063b9312dca",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "2cc70d50379141a1b618310934d6b908": {
+          "id": "2cc70d50379141a1b618310934d6b908",
+          "stepType": "DateTimePrompt",
+          "name": "End date",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Select the end date"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "9aed3c2891044d18ba6e488996ccd5b1",
+          "detailDescription": ""
+        },
+        "cd4a71553eb14387869cbef6c797819e": {
+          "id": "cd4a71553eb14387869cbef6c797819e",
+          "stepType": "CrudAction",
+          "name": "Create leave request",
+          "template": {
+            "query": {
+              "terms": [
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "leave_type",
+                  "expression": "{{vaInputs.select_leave_type}}",
+                  "id": "25cae0f6e10f4028a0bc28e001596e01"
+                },
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "start_date",
+                  "expression": "{{vaInputs.start_date}}",
+                  "id": "1b19ec20f538425381fbb026976b45bf"
+                },
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "end_date",
+                  "expression": "{{vaInputs.end_date}}",
+                  "id": "cdb6786d48e34bf7a7a289bcc34a2a96"
+                },
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "half_day",
+                  "expression": "{{vaInputs.half_day}}",
+                  "id": "6b95bb15471f45e18618937917bdbf0c"
+                },
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "requested_by",
+                  "expression": "{{vaInputs.user}}",
+                  "id": "12db3cc385c64abe814c7013fbf9b920"
+                }
+              ]
+            },
+            "queryString": "leave_type={{vaInputs.select_leave_type}}^start_date={{vaInputs.start_date}}^end_date={{vaInputs.end_date}}^half_day={{vaInputs.half_day}}^requested_by={{vaInputs.user}}"
+          },
+          "mode": "create",
+          "record": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "attachments": [
+            {
+              "value": "",
+              "mode": "simple"
+            }
+          ],
+          "variableId": "39355ce0791f404ba8326330ff593d2c"
+        }
+      },
+      "edges": [
+        {
+          "id": "d50ba25afe734d57bfdd08b137b7f37a",
+          "edgeType": "Edge",
+          "source": "cd4a71553eb14387869cbef6c797819e",
+          "target": "50f99b66b5f4406d9bad169261b5f277",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "90b7b5d0489147f695e723d0bd032fee",
+          "edgeType": "Edge",
+          "source": "2cc70d50379141a1b618310934d6b908",
+          "target": "cd4a71553eb14387869cbef6c797819e",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "12f24a6df46243999a6c0f78d8d19999",
+          "edgeType": "Edge",
+          "source": "cbd6ab1be1fb4fe28db664063ab30611",
+          "target": "68f150a9851441e4858ee1b3961cdda8",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "3f3acd73c2a946a194655504cd857586",
+          "edgeType": "Edge",
+          "source": "68f150a9851441e4858ee1b3961cdda8",
+          "target": "363b568fd7b94116b3bd76a6c67895e3",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "f8f80e46d99747d986fe6b7076520cdf",
+          "edgeType": "Edge",
+          "source": "363b568fd7b94116b3bd76a6c67895e3",
+          "target": "4a74f7bd3f6b4314ad510ac78ecb3c5f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "bf469128872f4b789d9ebc3a95e9494b",
+          "edgeType": "Edge",
+          "source": "4a74f7bd3f6b4314ad510ac78ecb3c5f",
+          "target": "1549661d21d54aaea98ca4b1d535f72c",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "74f7d41191864fd080b9ef48d3707f59",
+          "edgeType": "Edge",
+          "source": "1549661d21d54aaea98ca4b1d535f72c",
+          "target": "cafd2ddaf96b463e84d40063b9312dca",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "e2e78f776e3f4750aee6e39ea8cd4eb6",
+          "edgeType": "Branch",
+          "source": "cafd2ddaf96b463e84d40063b9312dca",
+          "target": "2cc70d50379141a1b618310934d6b908",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.half_day=false",
+            "mode": "query"
+          },
+          "label": "false"
+        },
+        {
+          "id": "308f10a67e2849298c19e7c5e0f87510",
+          "edgeType": "Branch",
+          "source": "cafd2ddaf96b463e84d40063b9312dca",
+          "target": "cd4a71553eb14387869cbef6c797819e",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.half_day=true",
+            "mode": "query"
+          },
+          "label": "true"
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "0999b46480e349f6a6e9c22a816b0300": {
+      "id": "0999b46480e349f6a6e9c22a816b0300",
+      "name": "select_leave_type",
+      "label": "Select Leave Type",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Casual Leave",
+          "value": "1"
+        },
+        {
+          "label": "Sick Leave",
+          "value": "2"
+        },
+        {
+          "label": "Earned Leave",
+          "value": "3",
+          "checked": true,
+          "meta": {}
+        },
+        {
+          "label": "Work From Home",
+          "value": "4",
+          "checked": true,
+          "meta": {}
+        }
+      ],
+      "category": "vaInputs",
+      "nodeId": "363b568fd7b94116b3bd76a6c67895e3",
+      "isHidden": false
+    },
+    "03b867c92a3748c6a4d1ecdd2fb352d0": {
+      "id": "03b867c92a3748c6a4d1ecdd2fb352d0",
+      "name": "start_date",
+      "label": "Start Date",
+      "varType": "date_time",
+      "secure": false,
+      "category": "vaInputs",
+      "mode": "date_time",
+      "nodeId": "4a74f7bd3f6b4314ad510ac78ecb3c5f",
+      "isHidden": false
+    },
+    "b07a50158ca44e579a3b2a1391440864": {
+      "id": "b07a50158ca44e579a3b2a1391440864",
+      "name": "half_day",
+      "label": "Half Day",
+      "varType": "boolean",
+      "secure": false,
+      "category": "vaInputs",
+      "nodeId": "1549661d21d54aaea98ca4b1d535f72c",
+      "isHidden": false
+    },
+    "9aed3c2891044d18ba6e488996ccd5b1": {
+      "id": "9aed3c2891044d18ba6e488996ccd5b1",
+      "name": "end_date",
+      "label": "End Date",
+      "varType": "date_time",
+      "secure": false,
+      "category": "vaInputs",
+      "mode": "date_time",
+      "nodeId": "2cc70d50379141a1b618310934d6b908",
+      "isHidden": false
+    },
+    "39355ce0791f404ba8326330ff593d2c": {
+      "id": "39355ce0791f404ba8326330ff593d2c",
+      "name": "create_leave_request",
+      "label": "Create Leave Request",
+      "varType": "reference",
+      "table": "x_1777187_leave_0_leave_request_details",
+      "inactive": false,
+      "category": "vaInputs",
+      "nodeId": "cd4a71553eb14387869cbef6c797819e",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <key_phrases>create leave request</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>create leave request</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 11:53:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>bdf34462835aaa50216cf7a6feaad370</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>create leave request</sys_name>
+        <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+        <sys_update_name>sys_cb_topic_bdf34462835aaa50216cf7a6feaad370</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 12:26:34</sys_updated_on>
+        <title>create leave request</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+    </sys_cb_topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=bdf34462835aaa50216cf7a6feaad370"/>
+</record_update>

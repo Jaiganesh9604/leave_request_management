@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1777187_leave_0_leave_request_details">active=true</condition>
+        <group/>
+        <name>Leave Request Management - x_1777187_leave_0_leave</name>
+        <roles/>
+        <source_table>x_1777187_leave_0_leave_request_details</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 06:41:33</sys_created_on>
+        <sys_id>4dac45b48316a250216cf7a6feaad30e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leave Request Management - x_1777187_leave_0_leave</sys_name>
+        <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
+        <sys_update_name>sys_search_source_4dac45b48316a250216cf7a6feaad30e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 06:41:33</sys_updated_on>
+    </sys_search_source>
+</record_update>

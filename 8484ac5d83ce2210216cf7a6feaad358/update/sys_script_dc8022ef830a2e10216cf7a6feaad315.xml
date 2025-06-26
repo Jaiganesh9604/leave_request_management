@@ -48,7 +48,7 @@
             grlv.initialize();
             grlv.leave_type = gr.leave_type;
             grlv.acrrued = totalLeaves;
-            grlv.taken = 0;
+            grlv.leave_taken = 0;
             grlv.employee = current.sys_id;
             grlv.insert();
         } else if (gr.leave_assignment == 'monthly') {
@@ -57,7 +57,7 @@
             grlvM.initialize();
             grlvM.leave_type = gr.leave_type;
             grlvM.acrrued = permonthM;
-            grlvM.taken = 0;
+            grlvM.leave_taken = 0;
             grlvM.employee = current.sys_id;
             grlvM.insert();
         }
@@ -70,7 +70,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dc8022ef830a2e10216cf7a6feaad315</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Create leave Bucket</sys_name>
         <sys_overrides/>
         <sys_package display_value="Leave Request Management" source="x_1777187_leave_0">8484ac5d83ce2210216cf7a6feaad358</sys_package>
@@ -78,9 +78,9 @@
         <sys_scope display_value="Leave Request Management">8484ac5d83ce2210216cf7a6feaad358</sys_scope>
         <sys_update_name>sys_script_dc8022ef830a2e10216cf7a6feaad315</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-16 16:24:43</sys_updated_on>
+        <sys_updated_on>2025-06-17 10:20:26</sys_updated_on>
         <template/>
-        <when>async_always</when>
+        <when>after</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=dc8022ef830a2e10216cf7a6feaad315"/>
 </record_update>
